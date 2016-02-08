@@ -1,0 +1,162 @@
+h3{
+  text-align: center;
+  margin: 0;
+}
+
+p{
+  text-align: center;
+  font-size: 12px;
+}
+
+h5{
+  text-align: left;
+  margin: 6px;
+}
+
+.intro {
+  border-style: double;
+  padding: 5px 5px 5px 5px
+}
+
+
+.overlay {
+  position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: black;
+ opacity: 0.6;;
+}
+
+.contact {
+  border-style: double;
+  border-color: white;
+  padding: 0px
+}
+
+h5 p{
+  text-align: left;
+  margin: 0;
+}
+
+.job{
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.position{
+  font-style: italic;
+  font-size: 12px;
+    text-align: left;
+}
+
+li {
+  font-size: 12px;
+  text-align: left;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+}
+
+.jumbotron {
+  color: white;
+  font-size: 24px;
+  margin-top: 250px;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+}
+
+.nav {
+  background: white;
+  height: 40px;
+  position:fixed;
+ top: 0;
+ margin:auto;
+ left: 0;
+ right: 0;
+ width: 100%;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  float: right;
+  display: block;
+  padding: 10px 20px;
+  color: black
+}
+
+.nav ul li a:hover {
+  color: green;
+}
+
+body {
+  background-color: #c9c0bb;
+}
+
+.career {
+  margin-top: 40px;
+  border-style: double;
+  border-color: white;
+  padding: 5px 5px 5px 5px;
+}
+
+.career h3 {
+  text-align: center;
+}
+
+.name {
+  margin-top: 40px;
+}
+
+/*.footer-social {
+ background: white;
+ margin: 35px 25px;
+ height: 60px;
+}*/
+
+.footer-social { float: right; margin-top:5px; margin-right: 120px;}
+.footer-social ul { padding:0; margin:0 0 0 0px;}
+.footer-social li {float:left; list-style:none; margin-left:5px;}
+.footer ul li {
+  float: right;
+  /*list-style: none;*/
+}
